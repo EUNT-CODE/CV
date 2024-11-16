@@ -1,0 +1,74 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Elias Uriel Nuño Tirado
+title: Junior Programmer
+email: eliaseunt@gmail.com
+website: www.github.com/eliaseunt
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: ""
+github_username: eliaseunt
+linkedin_username: ""
+# Additional icon links
+additional_links: []
+
+# Google Analytics and Tag Manager
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_profile_image: images/profile.jpg
+about_content: | 
+  Hi, my name is Elias and I am a junior programmer. I am passionate about learning new programming languages and tackling new challenges. I am constantly looking for ways to improve my skills and broaden my knowledge in the tech field.
+
+content:
+  - title: Projects
+    layout: list
+    content: []
+
+  - title: Experience
+    layout: list
+    content: []
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: CUCEI (Center for Computing Science)
+        caption: 2021 - Present
+        sub_title: Computer Science
+        quote: >
+          CUCEI is one of the most prestigious institutions for computing education in the region. It has allowed me to gain knowledge in languages such as C++ and Python.
+        description: | 
+          I have developed a strong foundation in computer science, focusing on areas such as software development, algorithms, and problem-solving. I am continuing to expand my knowledge and skills in various programming languages and technologies.
+
+  - title: A Little More About Me
+    layout: text
+    content: | 
+      Besides my passion for programming, I am also interested in game development, particularly RPGs. I am always seeking opportunities to improve my coding abilities and push my limits in different areas of programming.
+
+      Look at this cool image  
+      ![RPG Game Development](/modern-resume-theme/images/game-development.jpg "RPG Game Development")
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
